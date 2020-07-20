@@ -1,0 +1,23 @@
+{
+	username = "Username: ",
+	uuid = "UUID: ",
+	lastknownlocation = "Last known location: ",
+	position = "Job position: ",
+	description = "Brief description: ",
+	unknown = "Unknown",
+	usernotexist = "User does not exist",
+	passwordincorrect = "Password is not correct",
+	loadfilemenu = "Load File",
+	loadfiletitle = "Name Entry",
+	loadfile = "Name Entry",
+	addentrymenu = "Add Entry",
+	addentrytitle = "Add Entry",
+	addentryinputname = "Name",
+	addentryinputlastknownlocation = "Last known location",
+	addentryinputposition = "Job position",
+	addentryinputdescription = "Brief description",
+	addentryinputusername = "Username",
+	addentryinputpassword = "Password",
+	addentrybutton = "Add Entry",
+	title = "Personnel Database Viewer"
+}

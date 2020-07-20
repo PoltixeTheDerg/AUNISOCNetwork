@@ -1,0 +1,157 @@
+return {
+-- Table: {1}
+{
+   {2},
+   {3},
+   {4},
+   {5},
+   {6},
+   {7},
+   {8},
+   {9},
+   {10},
+   {11},
+   {12},
+   {13},
+   ["bottomline"]="Made by PoltixeTheDerg",
+   ["useExit"]=true,
+   ["version"]="1.0",
+   ["counter"]=12,
+   ["filename"]="dialer",
+   ["topline"]="Stargate Dialing",
+},
+-- Table: {2}
+{
+   ["textEnabled"]=true,
+   ["name"]="list_database",
+   ["func"]="list_database_callback",
+   ["x"]=1,
+   ["y"]=1,
+   ["type"]="list",
+   ["text"]="Database",
+   ["data"]={14},
+   ["h"]=10,
+   ["w"]=20,
+},
+-- Table: {3}
+{
+   ["type"]="button",
+   ["text"]="Refresh Database",
+   ["name"]="button_refresh_database",
+   ["func"]="button_refresh_database_callback",
+   ["x"]=2,
+   ["y"]=12,
+},
+-- Table: {4}
+{
+   ["type"]="button",
+   ["text"]="Dial from database",
+   ["name"]="button_dial_database",
+   ["func"]="button_dial_database",
+   ["x"]=1,
+   ["y"]=13,
+},
+-- Table: {5}
+{
+   ["type"]="button",
+   ["text"]="Delete entry",
+   ["name"]="button_delete_database",
+   ["func"]="button_2_callback",
+   ["x"]=4,
+   ["y"]=14,
+},
+-- Table: {6}
+{
+   ["max"]=8,
+   ["func"]="text_dial_manual",
+   ["x"]=1,
+   ["y"]=16,
+   ["type"]="text",
+   ["text"]="Manual Address Input",
+   ["l"]=20,
+   ["pass"]=false,
+   ["name"]="text_dial_manual",
+},
+-- Table: {7}
+{
+   ["type"]="button",
+   ["text"]="Dial from Manual",
+   ["name"]="button_dial_manual",
+   ["func"]="button_3_callback",
+   ["x"]=2,
+   ["y"]=17,
+},
+-- Table: {8}
+{
+   ["type"]="label",
+   ["text"]="Dialing Progress",
+   ["l"]=7,
+   ["name"]="label_dial_progress",
+   ["fg"]=0,
+   ["bg"]=12632256,
+   ["x"]=22,
+   ["y"]=1,
+},
+-- Table: {9}
+{
+   ["value"]=0,
+   ["max"]=10,
+   ["func"]="hprogress_dial_progress",
+   ["x"]=22,
+   ["y"]=2,
+   ["type"]="hprogress",
+   ["l"]=16,
+   ["number"]=false,
+   ["name"]="hprogress_dial_progress",
+},
+-- Table: {10}
+{
+   ["value"]=0,
+   ["name"]="vprogress_power_level",
+   ["func"]="vprogress_power_level_callback",
+   ["x"]=74,
+   ["y"]=1,
+   ["type"]="vprogress",
+   ["l"]=21,
+   ["direction"]=false,
+   ["max"]=10,
+   ["w"]=2,
+},
+-- Table: {11}
+{
+   ["type"]="label",
+   ["text"]="label_gate_type",
+   ["l"]=7,
+   ["name"]="label_gate_type",
+   ["fg"]=0,
+   ["bg"]=12632256,
+   ["x"]=1,
+   ["y"]=21,
+},
+-- Table: {12}
+{
+   ["type"]="label",
+   ["text"]="0/3 Capacitors installed",
+   ["l"]=7,
+   ["name"]="label_capacitor_count",
+   ["fg"]=0,
+   ["bg"]=12632256,
+   ["x"]=49,
+   ["y"]=20,
+},
+-- Table: {13}
+{
+   ["value"]=0,
+   ["max"]=10,
+   ["func"]="hprogress_capacitor_count_callback",
+   ["x"]=49,
+   ["y"]=21,
+   ["type"]="hprogress",
+   ["l"]=24,
+   ["number"]=false,
+   ["name"]="hprogress_capacitor_count",
+},
+-- Table: {14}
+{
+},
+}
